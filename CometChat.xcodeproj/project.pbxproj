@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFF6D0752035F86A0051026D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6D0742035F86A0051026D /* AppDelegate.swift */; };
+		CFF6D0772035F86A0051026D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6D0762035F86A0051026D /* ViewController.swift */; };
+		CFF6D07A2035F86A0051026D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF6D0782035F86A0051026D /* Main.storyboard */; };
+		CFF6D07C2035F86A0051026D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF6D07B2035F86A0051026D /* Assets.xcassets */; };
+		CFF6D07F2035F86A0051026D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF6D07D2035F86A0051026D /* LaunchScreen.storyboard */; };
+		CFF6D08A2035F86B0051026D /* CometChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6D0892035F86B0051026D /* CometChatTests.swift */; };
+		CFF6D0952035F86B0051026D /* CometChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6D0942035F86B0051026D /* CometChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFF6D0862035F86B0051026D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF6D0692035F86A0051026D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF6D0702035F86A0051026D;
+			remoteInfo = CometChat;
+		};
+		CFF6D0912035F86B0051026D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF6D0692035F86A0051026D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF6D0702035F86A0051026D;
+			remoteInfo = CometChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFF6D0712035F86A0051026D /* CometChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CometChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF6D0742035F86A0051026D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFF6D0762035F86A0051026D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFF6D0792035F86A0051026D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFF6D07B2035F86A0051026D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFF6D07E2035F86A0051026D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFF6D0802035F86B0051026D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF6D0852035F86B0051026D /* CometChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CometChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF6D0892035F86B0051026D /* CometChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometChatTests.swift; sourceTree = "<group>"; };
+		CFF6D08B2035F86B0051026D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF6D0902035F86B0051026D /* CometChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CometChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF6D0942035F86B0051026D /* CometChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometChatUITests.swift; sourceTree = "<group>"; };
+		CFF6D0962035F86B0051026D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFF6D06E2035F86A0051026D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF6D0822035F86B0051026D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF6D08D2035F86B0051026D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFF6D0682035F86A0051026D = {
+			isa = PBXGroup;
+			children = (
+				CFF6D0732035F86A0051026D /* CometChat */,
+				CFF6D0882035F86B0051026D /* CometChatTests */,
+				CFF6D0932035F86B0051026D /* CometChatUITests */,
+				CFF6D0722035F86A0051026D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF6D0722035F86A0051026D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF6D0712035F86A0051026D /* CometChat.app */,
+				CFF6D0852035F86B0051026D /* CometChatTests.xctest */,
+				CFF6D0902035F86B0051026D /* CometChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFF6D0732035F86A0051026D /* CometChat */ = {
+			isa = PBXGroup;
+			children = (
+				CFF6D0742035F86A0051026D /* AppDelegate.swift */,
+				CFF6D0762035F86A0051026D /* ViewController.swift */,
+				CFF6D0782035F86A0051026D /* Main.storyboard */,
+				CFF6D07B2035F86A0051026D /* Assets.xcassets */,
+				CFF6D07D2035F86A0051026D /* LaunchScreen.storyboard */,
+				CFF6D0802035F86B0051026D /* Info.plist */,
+			);
+			path = CometChat;
+			sourceTree = "<group>";
+		};
+		CFF6D0882035F86B0051026D /* CometChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFF6D0892035F86B0051026D /* CometChatTests.swift */,
+				CFF6D08B2035F86B0051026D /* Info.plist */,
+			);
+			path = CometChatTests;
+			sourceTree = "<group>";
+		};
+		CFF6D0932035F86B0051026D /* CometChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFF6D0942035F86B0051026D /* CometChatUITests.swift */,
+				CFF6D0962035F86B0051026D /* Info.plist */,
+			);
+			path = CometChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFF6D0702035F86A0051026D /* CometChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF6D0992035F86B0051026D /* Build configuration list for PBXNativeTarget "CometChat" */;
+			buildPhases = (
+				CFF6D06D2035F86A0051026D /* Sources */,
+				CFF6D06E2035F86A0051026D /* Frameworks */,
+				CFF6D06F2035F86A0051026D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CometChat;
+			productName = CometChat;
+			productReference = CFF6D0712035F86A0051026D /* CometChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFF6D0842035F86B0051026D /* CometChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF6D09C2035F86B0051026D /* Build configuration list for PBXNativeTarget "CometChatTests" */;
+			buildPhases = (
+				CFF6D0812035F86B0051026D /* Sources */,
+				CFF6D0822035F86B0051026D /* Frameworks */,
+				CFF6D0832035F86B0051026D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF6D0872035F86B0051026D /* PBXTargetDependency */,
+			);
+			name = CometChatTests;
+			productName = CometChatTests;
+			productReference = CFF6D0852035F86B0051026D /* CometChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFF6D08F2035F86B0051026D /* CometChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF6D09F2035F86B0051026D /* Build configuration list for PBXNativeTarget "CometChatUITests" */;
+			buildPhases = (
+				CFF6D08C2035F86B0051026D /* Sources */,
+				CFF6D08D2035F86B0051026D /* Frameworks */,
+				CFF6D08E2035F86B0051026D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF6D0922035F86B0051026D /* PBXTargetDependency */,
+			);
+			name = CometChatUITests;
+			productName = CometChatUITests;
+			productReference = CFF6D0902035F86B0051026D /* CometChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF6D0692035F86A0051026D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Roshan Nagose";
+				TargetAttributes = {
+					CFF6D0702035F86A0051026D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CFF6D0842035F86B0051026D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFF6D0702035F86A0051026D;
+					};
+					CFF6D08F2035F86B0051026D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFF6D0702035F86A0051026D;
+					};
+				};
+			};
+			buildConfigurationList = CFF6D06C2035F86A0051026D /* Build configuration list for PBXProject "CometChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFF6D0682035F86A0051026D;
+			productRefGroup = CFF6D0722035F86A0051026D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFF6D0702035F86A0051026D /* CometChat */,
+				CFF6D0842035F86B0051026D /* CometChatTests */,
+				CFF6D08F2035F86B0051026D /* CometChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFF6D06F2035F86A0051026D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF6D07F2035F86A0051026D /* LaunchScreen.storyboard in Resources */,
+				CFF6D07C2035F86A0051026D /* Assets.xcassets in Resources */,
+				CFF6D07A2035F86A0051026D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF6D0832035F86B0051026D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF6D08E2035F86B0051026D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFF6D06D2035F86A0051026D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF6D0772035F86A0051026D /* ViewController.swift in Sources */,
+				CFF6D0752035F86A0051026D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF6D0812035F86B0051026D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF6D08A2035F86B0051026D /* CometChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF6D08C2035F86B0051026D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF6D0952035F86B0051026D /* CometChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFF6D0872035F86B0051026D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFF6D0702035F86A0051026D /* CometChat */;
+			targetProxy = CFF6D0862035F86B0051026D /* PBXContainerItemProxy */;
+		};
+		CFF6D0922035F86B0051026D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFF6D0702035F86A0051026D /* CometChat */;
+			targetProxy = CFF6D0912035F86B0051026D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFF6D0782035F86A0051026D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF6D0792035F86A0051026D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFF6D07D2035F86A0051026D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF6D07E2035F86A0051026D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFF6D0972035F86B0051026D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFF6D0982035F86B0051026D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFF6D09A2035F86B0051026D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CometChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Roshan.CometChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFF6D09B2035F86B0051026D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CometChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Roshan.CometChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFF6D09D2035F86B0051026D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CometChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Roshan.CometChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CometChat.app/CometChat";
+			};
+			name = Debug;
+		};
+		CFF6D09E2035F86B0051026D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CometChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Roshan.CometChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CometChat.app/CometChat";
+			};
+			name = Release;
+		};
+		CFF6D0A02035F86B0051026D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CometChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Roshan.CometChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CometChat;
+			};
+			name = Debug;
+		};
+		CFF6D0A12035F86B0051026D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CometChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Roshan.CometChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CometChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFF6D06C2035F86A0051026D /* Build configuration list for PBXProject "CometChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF6D0972035F86B0051026D /* Debug */,
+				CFF6D0982035F86B0051026D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF6D0992035F86B0051026D /* Build configuration list for PBXNativeTarget "CometChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF6D09A2035F86B0051026D /* Debug */,
+				CFF6D09B2035F86B0051026D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF6D09C2035F86B0051026D /* Build configuration list for PBXNativeTarget "CometChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF6D09D2035F86B0051026D /* Debug */,
+				CFF6D09E2035F86B0051026D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF6D09F2035F86B0051026D /* Build configuration list for PBXNativeTarget "CometChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF6D0A02035F86B0051026D /* Debug */,
+				CFF6D0A12035F86B0051026D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFF6D0692035F86A0051026D /* Project object */;
+}
